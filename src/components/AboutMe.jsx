@@ -3,6 +3,7 @@ import "../css/AboutMe.css";
 import Reveal from './Reveal';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Logo from '../Img/logo.jpg';
 
 export default function AboutMe() {
 
@@ -20,7 +21,7 @@ export default function AboutMe() {
                   <TrackVisibility once>
                     {({ isVisible }) =>
                       <div className={`${isVisible ? "animate__animated animate__fadeInLeft d-static" : "d-none"}`}>
-                        <img src="src/assets/logo.jpg" className='w-100' alt="" />
+                        <img src={Logo} className='w-100' alt="" />
                       </div>
                     }
                   </TrackVisibility>
