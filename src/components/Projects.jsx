@@ -149,10 +149,7 @@ export default function Projects() {
 
                                             </div>
                                             <div className="service-content">
-                                                <h2 className="lul-title">KarimStore</h2>
-                                                <p>
-                                                    Aim for Unity:
-                                                </p>
+                                                <h2 className="lul-title">We aim for Unity:</h2>
                                                 <p>We want to strengthen the bonds between nations as our primary goal. In order to solve the problems that today's society faces, we try to close gaps, promote understanding, and work together. Serving as a hub for people from different backgrounds, OpenVoiceHub helps to build a united global society.
                                                 </p>
                                             </div>
