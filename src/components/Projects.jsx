@@ -79,7 +79,7 @@ export default function Projects() {
                             {/* <p>Assignments given by <a className=" darkLink" target="_blank" href="https://www.facebook.com/Routelearning">Route Center</a> <em className=''>Eng: </em><a className="darkLink" target="_blank" href="https://www.facebook.com/ahmedmu3ti"><strong>Ahmed Mu3ti</strong></a>.</p> */}
                             <Container className='mt-5'>
                                 <Row className='gx-3 pb-2'>
-                                    <Col sm={4} xs={6}>
+                                    <Col sm={6} md={4} xs={12}>
                                         <div className='Offers p-3'>
                                             <p style={{ textDecoration: 'underline' }}>Home</p>
                                             <h2 style={{ fontSize: '3rem' }}>1500.$</h2>
@@ -94,7 +94,7 @@ export default function Projects() {
                                             <hr className='my-1' />
                                         </div>
                                     </Col>
-                                    <Col sm={4} xs={6}>
+                                    <Col sm={6} md={4} xs={12}>
                                         <div className='Offers NewOffer'>
                                             <p style={{ textDecoration: 'underline' }}>Farms</p>
                                             <h2 style={{ fontSize: '3rem' }}>4999.$</h2>
@@ -109,7 +109,7 @@ export default function Projects() {
                                             <hr className='my-1' />
                                         </div>
                                     </Col>
-                                    <Col sm={4} xs={6}>
+                                    <Col sm={6} md={4} xs={12}>
                                         <div className='Offers p-3'>
                                             <p style={{ textDecoration: 'underline' }}>Buisnesses</p>
                                             <h2 style={{ fontSize: '3rem' }}>10,000.$</h2>
