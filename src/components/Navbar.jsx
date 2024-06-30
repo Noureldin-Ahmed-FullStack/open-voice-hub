@@ -11,7 +11,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import NourLogo from '../Img/BG Logo.png';
+import Logo from '../Img/BG Logo.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/navbar.css';
@@ -111,7 +111,7 @@ function App() {
           <Box
             sx={{ display: { xs: 'none', md: 'flex' }, my: 2, mr: 1 }}
           >
-            <img src={NourLogo} className='icon me-3' />
+            <img src={Logo} className='icon me-3' />
           </Box>
           <Typography
             variant="h6"
@@ -183,7 +183,7 @@ function App() {
           <Box
             sx={{ display: { xs: 'flex', md: 'none' }, my: 2, mr: 1 }}
           >
-            <img src={NourLogo} className='icon me-3' />
+            <img src={Logo} className='icon me-3' />
           </Box>
           <Typography
             variant="h5"
@@ -202,7 +202,7 @@ function App() {
               cursor: 'pointer',
             }}
           >
-            Noureldin
+            Open Voice Hub
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <Button

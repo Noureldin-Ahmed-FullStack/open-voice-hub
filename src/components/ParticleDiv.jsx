@@ -190,7 +190,6 @@ export default function ParticleDiv() {
                 </div>}
             </TrackVisibility>
           </div>
-          {/* <h1 className='bgText'>Noureldin</h1> */}
 
         </div>
 
